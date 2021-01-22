@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title> Koya university | Faculty of Education</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="MakeUp.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@450&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  href="swiper.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fa0196ec72.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="Functions.js"></script>
+        <link rel="shortcut icon" type="image/png" href="home/flogo2.png">
+
+    </head>
+
+    <body style="padding: 0; margin: 0;">
+        <div id="myModal">
+  <span class="close">&times;</span>
+  <div id="caption" style="font-family: 'Volkhov', serif;"></div>
+  <div class="boxing">
+      <div id="valhalla" style="padding: 1vw;">
+        
+      </div>
+  </div>
+
+  
+</div>
+    
+
+
+
+    
+    	<!-- am dive a bo basy srawa , navigation bar + background -->
+    	<div id = "kodo" style="height: 1vw">
+            <nav class="nav0">
+                <ul  class="ul0">
+                    <li class="box">
+                        <input type="text" class="search-text" name="search-text" id="garann" placeholder="Search...">
+                        <a class="search-btn">
+                        <i class="fas fa-search" id="zaxm" onclick="yalla()"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul id="topi">
+                    <li id="pp"><a  class="fellkrdn zman"  onclick="english()">English</a></li>
+                    <li id="ppp"><a   class="fellkrdn zman" onclick="kurdish()"> کوردی </a></li>
+                    <li ><a href="https://www.facebook.com/koyauniversity" target="_blank" class="logo"><i class="fab fa-facebook-square"></i></a></li>
+                    <li ><a href="https://www.snapchat.com/" target="_blank" class="logo"><i  class="fab fa-snapchat-square"></i></a></li>
+                    <li ><a href="https://www.youtube.com/user/zankoykoye" target="_blank" class="logo"><i class="fab fa-youtube"></i></a></li>
+                    <li ><a href="https://www.instagram.com/koyauniversity/" target="_blank" class="logo"><i class="fab fa-instagram"></i></a></li>
+                    <li ><a href="https://twitter.com/koyauniversity" target="_blank" class="logo"><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </nav>
+            <nav class="nav1">
+                <ul id="menu">
+            <li ><a href="Home.html" id="home">Home</a></li>
+            <li ><a href="about.html" id="about">About</a></li>
+            <li ><a href="sakoya.html" id="study">Study at Koya</a></li>
+            <li ><a href="types.html" id="faculty" class="f">Faculties</a>
+              <ul class="m1" >
+                <li ><a href="en.html" id="en">Engineering</a>
+                  <ul class="m2">
+                    
+                    <li><a href="http://feng.koyauniversity.org/departments/dare" id="arch">Architectural</a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dcen" id="civi">Civil</a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dgen" id="geo">Geotechnical </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dche" id="chem">Chemical </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dpte" id="pet">Petroleum </a></li>
+                    <li><a href="software.html" id="softwaree">Software </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dmfe" id="manu">Manufacturing</a></li>
+
+                  </ul>
+
+                </li>
+                <li ><a href="sc.html" id="scc">Science & Health</a>
+
+                  <ul class="m2">
+                    <li><a href="http://fsch.koyauniversity.org/departments/dbio" id="bio">Biology</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dchm" id="chemm">Chemistry </a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dmat" id="math">Mathematics </a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dphy" id="phy">Physics</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dclp" id="cli">Clinical Psychology</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dmem" id="micro">Med. Microbiology</a></li>
+                  </ul>
+
+
+                </li>
+                <li ><a href="hu.html" id="hu">Humanity & Social</a>
+                  <ul class="m2">
+                    <li><a href="http://fhss.koyauniversity.org/departments/dlaw" id="law">Law</a></li>
+                    <li><a href="http://fhss.koyauniversity.org/departments/dadm" id="econ">Economy</a></li>
+                    <li><a href="http://fhss.koyauniversity.org/departments/deng" id="inglizy">English</a></li>
+                  </ul>
+                </li>
+                <li ><a href="ed.html" id="ed">Education </a>
+                  <ul class="m2">
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkur" id="kurdii">Kurdish</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/darb" id="arabii">Arabic</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dhis" id="histo">History</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dgeo" id="geooo">Geography </a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/drle" id="din">Religious</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkin" id="baxcha">Kindergarten</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/deps" id="psyy"> Psychology</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dphe" id="fizia">Physical</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dbed" id="disanenglizi"> English</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/denl" id="basicc">Basic Education</a></li>
+                  </ul>
+                </li>
+                <li ><a href="school.html" id="dxtor">School of Medicine </a></li>
+              </ul>
+                    <li class="nav"><a class="navi" id="research" href="r.html">Research</a></li>
+                    <li class="nav"><a class="navi" id="library" href="lam.html">Library & Musseum</a></li>
+                    <li class="nav"><a class="navi" id="life" href="life.html">Life on Campus</a></li>
+                    <li class="nav"><a class="navi" id="events" href="e.html">Events</a></li>
+                </ul>
+            </nav>
+
+            
+
+       </div>
+
+
+       
+
+    
+
+
+
+
+    <div style=" background: white; margin-top: 5vw;">
+        <div style="width: 25vw; height: 100vw; float: left;" class="sidebar1" >
+            <ul class="sideul">
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side1.jpg) no-repeat center top; background-size: cover;">
+                    </div>
+                    <h3 class="jwan" id="szanko1" style="color: black; text-shadow: none;">
+                        President @ Koya
+                    </h3>
+                    <p id="szanko2">
+                        Developing a vision for an academic institution, such as a university needs to be based on knowledge about the actual general conditions of the university.
+                    </p>
+
+                    <a href="sarok.html" class="read" id="szanko3"> Read More</a>
+                </li>
+
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side2.png) no-repeat center center ; background-size: contain; border-radius: 0px; margin-left: 0px; width: 100%; box-shadow: 0px 0px 0px 0px;" >
+                    </div>
+                    <p id="aro1">
+                        The scientific journal of Koya University will provide a credible academic platform for the publication of articles covering a wide range of scientific disciplines.
+                    </p>
+
+            
+                </li>
+                <li class="sideli">
+                    
+                    <p id="e1">our latest news.</p>
+                    <input type="email" name="email" id="abcfr" placeholder="Your Email" required style="justify-content: center; align-items: center; text-align: center; padding: 0vw; margin: 0vw; border: none; background:transparent; font-size: 1.15vw; border-bottom: 1px solid grey; outline: none; margin-left: 0.5vw;">
+                    <a id="e3"  style="margin: 1vw 2.5vw;" id="taybat" class="subscribe" class="read" onmouseover="yakam()"  onmouseout="yakams()" onclick="safe()">News room</a>
+                </li>
+
+                 </li>
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side4.png) no-repeat center top; background-size: cover;">
+                    </div>
+
+                    <a href="http://ol.koyauniversity.org/" style="margin: 1vw 0vw;" id="taybat" class="read oo" >Online Learning</a>
+                </li>
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side5.png) no-repeat center center ; background-size: contain; border-radius: 0px; margin-left: 0px; width: 100%; box-shadow: 0px 0px 0px 0px;" >
+                    </div>
+                    <a href="http://pressroom.koyauniversity.org/" style="margin: 1vw 2.5vw;" id="taybat" class="read nn" > nwcha nama</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div style="width:  72.5vw; height: auto; float: left; display: block; background: white;" class="tawari-raisy">
+            <a  href="Home.html" class="dagra" style="position: absolute; top: 10vw; left: 26vw;">Home</a>
+            <h1 style="display: block; font-size: 2.5vw; margin-left: 25vw;" class="jwan">Faculty of Education</h1>
+
+            <div style="margin: 1vw;">
+                <p style="font-size: 1.4vw;  line-height: 2vw; margin: 0vw;" >The Faculty of Education is engaged and dynamic in advancing education as a professional practice and in the field of scholarly inquiry through excellence in teaching, research and community service that promotes freedom, democracy, equality and human dignity.</p>
+                <p style="font-size: 1.4vw;  line-height: 2.1vw;">
+                The Faculty of Education is committed to improving the quality and understanding of education and social services provision internationally through high-quality teaching, research and professional development.</p>
+                <p style="font-size: 1.4vw;  line-height: 2.1vw;">The Faculty of Education (FEDU) is known as a leader in the study and practice of urban education, student testing and assessment, teacher and continuing education and development – particularly in urban, multi-ethnic environments, early childhood development, and issues of access, equity, and quality facing K-12.</p>
+                <p style="font-size: 1.4vw;  line-height: 2.1vw;">Here, faculty and students work together to solve the most pressing issues facing education today. This collaborative, dynamic environment helps students develop the skills they need to become leading education professionals to respond the progressive development in the region and helping the Reconstruction of the country.</p>
+                <h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan">Departments of FEDU</h2>
+                <ul style="line-height: 2vw;">
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkur" style="text-decoration: none; color:blue; text-shadow: none;">Department of Kurdish Language (DKUR)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/darb" style="text-decoration: none; color:blue; text-shadow: none;">Department of Arabic Language (DARB)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dhis" style="text-decoration: none; color:blue; text-shadow: none;">Department of History (DHIS)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/drle" style="text-decoration: none; color:blue; text-shadow: none;">Department of Geography (DGEO)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkin" style="text-decoration: none; color:blue; text-shadow: none;">Department of Religious Education (DRLE)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/deps" style="text-decoration: none; color:blue; text-shadow: none;">Department of Kindergarten (DKIN)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dphe" style="text-decoration: none; color:blue; text-shadow: none;">Department of Educational Psychology (DEPS)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dbed" style="text-decoration: none; color:blue; text-shadow: none;">Department of Physical Education (DPHE)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/denl" style="text-decoration: none; color:blue; text-shadow: none;">Department of Basic Education (DBED)</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/denl" style="text-decoration: none; color:blue; text-shadow: none;">Department of English Language (DENL)</a></li>
+                </ul>
+                <h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan">Units of the Faculty of Education:</h2>
+                <ul style="line-height: 2vw;">
+                    <li><a href="http://fedu.koyauniversity.org/qa-it-office" style="text-decoration: none; color:blue; text-shadow: none;">Quality Assurance & IT Unit</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/accounting-unit" style="text-decoration: none; color:blue; text-shadow: none;">Accounting Unit</a></li>
+                    <li><a href="#" style="text-decoration: none; color:blue; text-shadow: none;">Scientific and Postgraduate Affairs (SPA) Unit </a></li>
+                </ul>
+                <img src="education.png" style="width: 70vw; height: 13vw;">
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <footer style="margin-top: 30vw; margin-bottom: 0vw; clear: both;">
+        
+        <div class="olympus">
+            
+        </div>
+        
+        <div class="relax">
+            <ul class="elo2">
+                <li class="elo elohead ff">Tags</li>
+                <hr style="width: 16.8vw; padding: 0vw; margin: 0.5vw 0vw; color: white;">
+                <li class="elo read ff">​Koya University </li>
+                <li class="elo read ff">University Park </li>
+                <li class="elo read ff">Danielle Mitterrand Boulevard </li>
+                <li class="elo read ff">Koya KOY45</li>
+                <li class="elo read ff">Kurdistan Region, Iraq</li>
+                <li class="elo read ff">Mobile: +964 (0)748 026 258</li>
+                <li class="elo read ff">dit.office@koyauniversity.org</li>
+                <li class="elo read ff">URL: koya.university</li>
+            </ul>
+        </div>
+
+       
+        <div class="relax">
+            <ul class="elo2 opqq">
+                <li class="elo elohead read opq" >BEHAR Center</li>
+                <hr style="width: auto; padding: 0vw; margin: 0.5vw 0vw; color: white;">
+                <p class="elo read opq" id="taqana">
+                    Koya University English Language Centre (BEHAR) is a commercial unit at Koya University campus which is run by leading qualified English language instructors who are trained at the University of Arkansas specifically for English lecturers. Join BEHAR centre.
+                </p>
+            </ul>
+        </div>
+
+        <div class="relax">
+            <div class="qaty2">
+                
+            </div>
+            <p class="amoza read shex1">
+                get an inspiring education
+            </p>
+        </div>
+
+        <div class="xom">
+            <p>
+                <hr style="padding: 0vw; margin: 0vw; width: 80vw; margin-left: 10vw;">
+                <P  style="margin: 0vw; padding: 0vw; margin-left: 42vw; margin-top:0.4vw;" id="tawawbw" class="read">© Copyright 2020 <a href="#" id="kodoyousif" class="read">Kodo Yousif :)  </a></P>
+            </p>
+        </div>
+    </footer>
+
+    
+
+<script type="text/javascript">
+    var modal = document.getElementById('myModal');
+
+    var captionText = document.getElementById("caption");
+
+    function hatm( source , capt){
+
+        var johncena = document.getElementById(source).innerHTML;
+
+        modal.style.display = "block";
+        captionText.innerHTML = capt;
+        var johncena = document.getElementById("valhalla").innerHTML = johncena;
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() { 
+  modal.style.display = "none";
+}       
+
+</script>
+<script>
+var input = document.getElementById("garann");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("zaxm").click();
+  }
+});
+</script>  
+    <script src="swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop:true,  
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+      },    
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 550,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+    </body>
+
+
+</html>

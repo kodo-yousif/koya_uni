@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title> Koya university</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="MakeUp.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@450&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  href="swiper.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fa0196ec72.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="Functions.js"></script>
+        <link rel="shortcut icon" type="image/png" href="home/flogo2.png">
+
+    </head>
+
+    <body style="padding: 0; margin: 0;">
+    	<div id="view_style_css" style="  position: fixed;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: space-between;
+	opacity: 1;
+	z-index: 10000;">
+	<h1 style="color:blue">Wait 5 Seconds</h1>
+		<h2>Please view the page with</h2><h2>width more than 1000px</br>height more than 700px</h2>
+		<h2>the web site is not responsive</h2>
+		<h3>Source code at:</h3>
+		<h4><a style="color: blue" target="_blank" href="https://github.com/kodo-yousif/koya_uni">Here</a></h4>
+		<h3 style="color: red;">You can't reuse the logo ot has ©copyrights</h3>
+	<script>
+		setTimeout(() => {
+		document.getElementById('view_style_css').style.opacity="0";
+		setTimeout(() => {
+		document.getElementById('view_style_css').style.desplay="none";
+		document.getElementById('view_style_css').style.zIndex="-100";
+		}, 1000);
+	}, 5000);
+	</script>
+	</div>
+        <div id="myModal">
+  <span class="close">&times;</span>
+  <div id="caption" style="font-family: 'Volkhov', serif;"></div>
+  <div class="boxing">
+      <div id="valhalla" style="padding: 1vw;">
+        
+      </div>
+  </div>
+
+  
+</div>
+    
+
+
+
+    <div>
+    	<!-- am dive a bo basy srawa , navigation bar + background -->
+        <!-- vw 48 bo awanay taskbaryan haya awanay niyana 50vw -->
+    	<div id = "kodo" style="height: 48vw">
+
+            <div class="someone">
+                <a href="#mnmn" id="mnmn" class="read"><i class="fas fa-angle-double-down read" ></i> &nbspGo to content&nbsp <i class="fas fa-angle-double-down read"></i></a>
+            </div>
+            <a id="hkoya" href="about.html"></a>
+            <a id="hkoya2" href="about.html"></a>
+    		<nav class="nav0">
+                <ul  class="ul0">
+                    <li class="box">
+                        <input type="text" class="search-text" name="search-text" id="garann" placeholder="Search...">
+                        <a class="search-btn">
+                        <i class="fas fa-search" id="zaxm" onclick="yalla()"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul id="topi">
+                    <li id="pp"><a  class="fellkrdn zman"  onclick="english()">English</a></li>
+                    <li id="ppp"><a   class="fellkrdn zman" onclick="kurdish()"> کوردی </a></li>
+                    <li ><a href="https://www.facebook.com/koyauniversity" target="_blank" class="logo"><i class="fab fa-facebook-square"></i></a></li>
+                    <li ><a href="https://www.snapchat.com/" target="_blank" class="logo"><i  class="fab fa-snapchat-square"></i></a></li>
+                    <li ><a href="https://www.youtube.com/user/zankoykoye" target="_blank" class="logo"><i class="fab fa-youtube"></i></a></li>
+                    <li ><a href="https://www.instagram.com/koyauniversity/" target="_blank" class="logo"><i class="fab fa-instagram"></i></a></li>
+                    <li ><a href="https://twitter.com/koyauniversity" target="_blank" class="logo"><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </nav>
+    		<nav class="nav1">
+    			<ul id="menu">
+            <li ><a href="Home.html" id="home">Home</a></li>
+            <li ><a href="about.html" id="about">About</a></li>
+            <li ><a href="sakoya.html" id="study">Study at Koya</a></li>
+            <li ><a href="types.html" id="faculty" class="f">Faculties</a>
+              <ul class="m1" >
+                <li ><a href="en.html" id="en">Engineering</a>
+                  <ul class="m2">
+                    
+                    <li><a href="http://feng.koyauniversity.org/departments/dare" id="arch">Architectural</a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dcen" id="civi">Civil</a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dgen" id="geo">Geotechnical </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dche" id="chem">Chemical </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dpte" id="pet">Petroleum </a></li>
+                    <li><a href="software.html" id="softwaree">Software </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dmfe" id="manu">Manufacturing</a></li>
+
+                  </ul>
+
+                </li>
+                <li ><a href="sc.html" id="scc">Science & Health</a>
+
+                  <ul class="m2">
+                    <li><a href="http://fsch.koyauniversity.org/departments/dbio" id="bio">Biology</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dchm" id="chemm">Chemistry </a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dmat" id="math">Mathematics </a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dphy" id="phy">Physics</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dclp" id="cli">Clinical Psychology</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dmem" id="micro">Med. Microbiology</a></li>
+                  </ul>
+
+
+                </li>
+                <li ><a href="hu.html" id="hu">Humanity & Social</a>
+                  <ul class="m2">
+                    <li><a href="http://fhss.koyauniversity.org/departments/dlaw" id="law">Law</a></li>
+                    <li><a href="http://fhss.koyauniversity.org/departments/dadm" id="econ">Economy</a></li>
+                    <li><a href="http://fhss.koyauniversity.org/departments/deng" id="inglizy">English</a></li>
+                  </ul>
+                </li>
+                <li ><a href="ed.html" id="ed">Education </a>
+                  <ul class="m2">
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkur" id="kurdii">Kurdish</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/darb" id="arabii">Arabic</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dhis" id="histo">History</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dgeo" id="geooo">Geography </a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/drle" id="din">Religious</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkin" id="baxcha">Kindergarten</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/deps" id="psyy"> Psychology</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dphe" id="fizia">Physical</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dbed" id="disanenglizi"> English</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/denl" id="basicc">Basic Education</a></li>
+                  </ul>
+                </li>
+                <li ><a href="school.html" id="dxtor">School of Medicine </a></li>
+              </ul>
+    				<li class="nav"><a class="navi" id="research" href="r.html">Research</a></li>
+    				<li class="nav"><a class="navi" id="library" href="lam.html">Library & Musseum</a></li>
+    				<li class="nav"><a class="navi" id="life" href="life.html">Life on Campus</a></li>
+    				<li class="nav"><a class="navi" id="events" href="e.html">Events</a></li>
+    			</ul>
+    		</nav>
+
+            
+
+       </div>	
+
+
+       
+
+    </div>
+
+    <div style="height: 24vw; margin: 1vw 0vw; margin-top: 5vw; padding: 0vw;" id="b" >
+        
+
+ <div class="swiper-container" >
+        <div class="swiper-wrapper" >
+
+
+            <div class="swiper-slide" style="width: 38vw; background-color: white">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide1.jpg) no-repeat center center; background-size: cover;" >
+                    </div>
+
+    
+                    <div class="content" id="cratos">
+                        
+                            <h4 >Live at the University of Minho for Koya Student's<br></h4>
+                            <hr>
+                        <p>
+                             four students from Koya University are now studying at the University of Minho in Portugal. The students point out the significance of Marhaba Project and deem it.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    Wed, 23/12/2015 - 13:38
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');" >Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide2.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>Koya University Shares e-Smart Experience with other Universities<br></h4>
+                            <hr >
+                        <p style="font-size: 0.9vw;">
+                            e-Smart University – Koya University as an example, was the title of series of seminars presented by the Vice president for Scientific Affairs of Koya University and Higher Education Koya University to the Universities of Human Development, Salahaddin, Sulaimani, Raparin and Charmo.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    Wed, 23/12/2015 - 16:04
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide3.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>“Ranking Web” of Koya University by Webometrics<br></h4>
+                            <hr>
+                        <p>
+                            The Koya University ranking has been measured in several Webometics Ranking reports and the latest National University Ranking (NUR) 
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    Sat, 06/02/2016 - 00:47
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide4.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>Aro is listed by Thomson Reuters World of Science<br></h4>
+                            <hr>
+                        <p>
+                            Koya University is pleased to announce that Aro - The Scientific Journal of Koya University has been accepted for indexing in the Emerging Sources Citation Index (ESCI), a new edition of Web of Science™ as of Feb 2016.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    15/03/2016 - 21:35
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide5.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>$50,000 IREX education program<br></h4>
+                            <hr>
+                        <p>
+                            A Locally Presented International non-profit English Language Center at Koya University.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    06/09/2016 - 00:00
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide6.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>The international conference of "Massoud Muhammad"<br></h4>
+                            <hr>
+                        <p>
+                            Koya University will hold a conference on 15th Anniversary of the Death of Massoud Muhammad, Kurdish Author, Intellectual and Philosopher...
+                        </p>
+
+                       <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    Sun, 08/01/2017 - 01:27
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide7.jpg) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>EIOGI 2017 International Conference<br></h4>
+                            <hr>
+                        <p>
+                            International Conference on Environmental Impacts of the Oil and Gas Industries: Kurdistan Region of Iraq as a Case Study in April 17-19, 2017: EIOGI 2017 Conference.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    13/01/2017 - 00:00
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide8.jpg) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>Mental Health and Psychological Support Center opened<br></h4>
+                            <hr>
+                        <p>
+                            The SEED Foundation with the support of the U.S. Department of Foreign Affairs has opened the Center for Mental health and Psychological Support Services at Koya University.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    12/02/2017 - 03:07
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide9.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>A delegation of Koya University is visiting the USA<br></h4>
+                            <hr>
+                        <p>
+                            The Koya University delegation, which consists of the President of Koya University and the Dean of Faculty of Engineering, is in the US in order to hold several meetings with some academic institutions there.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    Wed, 23/12/2015 - 13:38
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="width: 38vw;">
+                <div class="card">
+
+                    <div class="slidertext" style="background: url(slider/slide10.png) no-repeat center center; background-size: cover;">
+                    </div>
+
+    
+                    <div class="content">
+                        
+                            <h4>Koya University Ranked Amongst Kurdistan's Leading Universities<br></h4>
+                            <hr>
+                        <p>
+                            In the National University Ranking (NUR) of Kurdistan Region in Iraq, Koya University was ranked as one of the among the five best universities of Kurdistan.
+                        </p>
+
+                        <div style="width: 38vw;">
+                            <ul class="bazmakaya">
+                                <li class="read" style=" padding-top: 6.5vw; padding-left: 0.5vw; width: 20vw;">
+                                    Wed, 23/12/2015 - 14:49
+                                </li>
+                                <li style="padding-top: 4.8vw; padding-left: 9.5vw;">
+                                    <a class="fellkrdn read" onclick="hatm('s1' , 'Published on Wed, 23/12/2015 - 13:38');">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <div style=" background: white;">
+        <div style="width: 25vw; height: 100vw; float: left;" class="sidebar1" >
+            <ul class="sideul">
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side1.jpg) no-repeat center top; background-size: cover;">
+                    </div>
+                    <h3 class="jwan" id="szanko1" style="color: black; text-shadow: none;">
+                        President @ Koya
+                    </h3>
+                    <p id="szanko2">
+                        Developing a vision for an academic institution, such as a university needs to be based on knowledge about the actual general conditions of the university.
+                    </p>
+
+                    <a href="sarok.html" class="read" id="szanko3"> Read More</a>
+                </li>
+
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side2.png) no-repeat center center ; background-size: contain; border-radius: 0px; margin-left: 0px; width: 100%; box-shadow: 0px 0px 0px 0px;" >
+                    </div>
+                    <p id="aro1">
+                        The scientific journal of Koya University will provide a credible academic platform for the publication of articles covering a wide range of scientific disciplines.
+                    </p>
+
+            
+                </li>
+                <li class="sideli">
+                    
+                    <p id="e1">our latest news.</p>
+                    <input type="email" name="email" id="abcfr" placeholder="Your Email" required style="justify-content: center; align-items: center; text-align: center; padding: 0vw; margin: 0vw; border: none; background:transparent; font-size: 1.15vw; border-bottom: 1px solid grey; outline: none; margin-left: 0.5vw;">
+                    <a id="e3"  style="margin: 1vw 2.5vw;" id="taybat" class="subscribe" class="read" onmouseover="yakam()"  onmouseout="yakams()" onclick="safe()">News room</a>
+                </li>
+
+                 </li>
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side4.png) no-repeat center top; background-size: cover;">
+                    </div>
+
+                    <a href="http://ol.koyauniversity.org/" style="margin: 1vw 0vw;" id="taybat" class="read oo" >Online Learning</a>
+                </li>
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side5.png) no-repeat center center ; background-size: contain; border-radius: 0px; margin-left: 0px; width: 100%; box-shadow: 0px 0px 0px 0px;" >
+                    </div>
+                    <a href="http://pressroom.koyauniversity.org/" style="margin: 1vw 2.5vw;" id="taybat" class="read nn" > nwcha nama</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div style="width:  72.5vw;  height: auto; float: left; display: block; background: #e0e0e0;" class="tawari-raisy">
+            <ul class="tawaw">
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle read">
+                        Full content
+                    </a>
+                    <h3 class="jwan">A KOU Teaching Staff Got a Deposited Paper to the SPIE Deference+Commercial Sensing Digital Forum.</h3>
+                    <div style="background: url(home/con1.jpg) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        Dr. Rasber Dh. Rashid from the Department of Software Engineering, Faculty of Engineering at Koya University, presented a research paper in the Mobile Image Exploitation and Learning 2020 Conference and the paper is deposited in the SPIE Deference + Commercial Sensing Digital Forum.  The paper entitled "Cover Image Selection for Embedding Based on Different Criteria."
+                        lorem
+                    </p>
+
+                </li>
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle read" >
+                        Full content
+                    </a>
+                    <h3 class="jwan">A Scientific Cooperation between KOU and Aberystwyth University to Coordinate an International Ph.D. Project</h3>
+                    <div style="background: url(home/con2.jpg) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        One of the fruitful outcomes of the cooperation between Koya University and Aberystwyth University, Wales, is Dr. Sarbast Mohammad Salih Nabi starts to coordinate a scientific project of two Canadian PhD. Candidates. Dr. Nabi is a senior lecturer and an assistant Prof. at the Malai Gawra Center, Koya University. The Ph.D. candidates are Mr. Haval Ahmed, a researcher in the Department of International Politics at  Aberystwyth University, Wales, and Ms. Emma MacTavish, a researcher in the Department of Political Science and International Studies, University of Birmingham.
+                    </p>
+                </li>
+
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle read" style="margin-top: 4vw;">
+                        Full content
+                    </a>
+                    <h3 class="jwan">KOU starts the Online Training Program with IREX, MHE-IRAQ and MHE-KRG</h3>
+                    <div style="background: url(home/con3.png) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        Today, the preliminary session (virtual teatime) for the Iraqi Universities coordinators started the online E-Learning Professional Training Program that organized by IREX with the Ministry of Higher Education and Scientific Research-IRAQ and the Ministry of Higher Education and Scientific Research -KRG. The online training program will last till the first week of June 2020. The Koya University team is represented by:
+                    </p>
+                </li>
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle read">
+                        Full content
+                    </a>
+                    <h3 class="jwan">A KOU Teaching Staff Published a Conference Paper</h3>
+                    <div style="background: url(home/con4.png) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        Dr. Karaman Mamand Faraj, a teaching staff at the Department of Law, Faculty of Humanities and Scoial Sciences,Koya University, presented a paper in The Migration Conference 2019, Bari, Italy,18-20 June 2019. The paper entitled "State as a Birthplace and Main Cause behind Massive Migration and Refugee Outflows" is now available in the conference proceeding: Chapter II. (2.2. State as a Birthplace and Main Cause behind Massive Migration and Refugee Outflows). Dr. Farj is curently on study leave at the United State.
+                    </p>
+                </li>
+
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle read">
+                        Full content
+                    </a>
+                    <h3 class="jwan">The Higher Committee of the Bologna Process in Kurdistan Region is Pursuing its Meeting Online</h3>
+                    <div style="background: url(home/con5.png) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        The higher committee of the Bologna Proccess in Kurdistan Region started to pursuing its regular meetings online. The committee is directed by the Ministry of Higher Education and Scientific Reserach in Kurdistan Universities with members from (7) Universities. Yesterday, the commitee held its regular meeting online. The meeting was directed by the D.G. Dr. Mohammed Hussein Ahmed, where the D.G Dr. Khattab Shekhany has been invited to attend the meeting, who had very important inputs and comments.
+                    </p>
+                </li>
+
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle">
+                        Full content
+                    </a>
+                    <h3 class="jwan">KOU Finished a One Month 25 Training Course Sessions on Online Learning</h3>
+                    <div style="background: url(home/con6.png) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        Coronavirus pandamic forces all Universities, institutions and research labs to shut down. The universities are shifting classes online. In this trend, KOU completed a one month training courses to all 25 departments, individually, on the online learning. Prof. Salah I. Yahya, the Director of the QA&CD at the University with his office members: Ms. Chra Maroof, Ms. Kenana Nouri, Mr. Alan Nahro, Ms. Haneen Hayder, Mr. Othman Kamal, Mr. Hawre Jabbar and Mr. Hardi Hamza were organized the training course.
+                    </p>
+                </li>
+
+                <li class="axir">
+                    <a onclick="hatm('dcon1' , 'Published on Sat, 09/05/2020 - 18:24');" class="middle read">
+                        Full content
+                    </a>
+                    <h3 class="jwan">KOU had a Speech in an International Universities Discussion</h3>
+                    <div style="background: url(home/con7.jpg) no-repeat center center; background-size: contain;"></div>
+                    <p>
+                        Dr. Sahar Basil M. Al-Qaisi, the assistant professor at the department of architectural engineering and the director of the Heritage Conservation Research Program (HCRP) at Koya University, has participated on 30 March 2020 as a speaker in the Online International Discussoin on ((Re) Contextualizing Contested Heritage: Building Capacity & Designing Participatory Approaches to Preserve Cultural Heritage by the Youth) which is an activity of the Research England Funding to Develop Participatory Approaches to Preserve Contested Heritage by Youth.
+                    </p>
+                </li>
+
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="map" >
+        
+        <div class="findus">
+            <h3 class="jwan">The University</h3>
+            <p>
+                Koya University is located in the city of Koya (Koysinjaq), which is 1.0 hr drive to the East of the Kurdistan Region capital Erbil (Arbil, Hewlér) in Kurdistan Region of F.R. Iraq. It is on the foothills of beautiful high mountain. Its campus has been carefully laid out to embrace the beautiful mountainous nature. 
+            </p>
+        </div>
+        <div class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.901475296125!2d44.655068315350725!3d36.095889680099795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40012580cd93c727%3A0x9b6d8716b11b45aa!2zS295YSBVbml2ZXJzaXR5INiy2KfZhtqp24bbjCDaqduG24zblQ!5e0!3m2!1sen!2siq!4v1589537675798!5m2!1sen!2siq" frameborder="0" style="border:0;  width: 69.7vw; height:25vw; border-radius: 1vw; box-shadow: 1px 1px 7px 1px; border: 0.05vw solid black; " allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <footer style="margin-top: 5vw; margin-bottom: 0vw; clear: both;">
+        
+        <div class="olympus">
+            
+        </div>
+        
+        <div class="relax">
+            <ul class="elo2">
+                <li class="elo elohead ff">Tags</li>
+                <hr style="width: 16.8vw; padding: 0vw; margin: 0.5vw 0vw; color: white;">
+                <li class="elo read ff">​Koya University </li>
+                <li class="elo read ff">University Park </li>
+                <li class="elo read ff">Danielle Mitterrand Boulevard </li>
+                <li class="elo read ff">Koya KOY45</li>
+                <li class="elo read ff">Kurdistan Region, Iraq</li>
+                <li class="elo read ff">Mobile: +964 (0)748 026 258</li>
+                <li class="elo read ff">dit.office@koyauniversity.org</li>
+                <li class="elo read ff">URL: koya.university</li>
+            </ul>
+        </div>
+
+       
+        <div class="relax">
+            <ul class="elo2 opqq">
+                <li class="elo elohead read opq" >BEHAR Center</li>
+                <hr style="width: auto; padding: 0vw; margin: 0.5vw 0vw; color: white;">
+                <p class="elo read opq" id="taqana">
+                    Koya University English Language Centre (BEHAR) is a commercial unit at Koya University campus which is run by leading qualified English language instructors who are trained at the University of Arkansas specifically for English lecturers. Join BEHAR centre.
+                </p>
+            </ul>
+        </div>
+
+        <div class="relax">
+            <div class="qaty2">
+                
+            </div>
+            <p class="amoza read shex1">
+                get an inspiring education
+            </p>
+        </div>
+
+        <div class="xom">
+            <p>
+                <hr style="padding: 0vw; margin: 0vw; width: 80vw; margin-left: 10vw;">
+                <P  style="margin: 0vw; padding: 0vw; margin-left: 42vw; margin-top:0.4vw;" id="tawawbw" class="read">© Copyright 2020 <a href="#" id="kodoyousif" class="read">Kodo Yousif :)  </a></P>
+            </p>
+        </div>
+    </footer>
+
+    
+
+
+    <div class="mnkem" id="dcon1" style="display: none;">
+   <h1 style="display: block; font-size: 2.3vw;" class="jwan">A KOU Teaching Staff Got a Deposited Paper to the SPIE Deference + Commercial Sensing Digital Forum</h1>
+   <p style="font-size: 1.4vw;  line-height: 2vw;" >Dr. Rasber Dh. Rashid from the Department of Software Engineering, Faculty of Engineering at Koya University, presented a research paper in the Mobile Image Exploitation and Learning 2020 Conference and the 
+    <img src="home/con1.jpg" style=" float: right;" >
+   paper is deposited in the SPIE Deference + Commercial Sensing Digital Forum.  The paper entitled "Cover Image Selection for Embedding Based on Different Criteria."</p>
+
+   <h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; padding: 0vw;" class="jwan" >About the research paper:</h2>
+   <p style="font-size: 1.3vw;  margin: 0vw; padding: 0vw;">
+Title: Cover image selection for embedding based on different criteria <br>
+Author: <a href="#" style="text-decoration: none; color:blue;text-shadow: none;">Dr. Rasber Dh. Rashid</a><br>
+Deposit date: 21 April 2020<br>
+Place of deposit: <a href="#" style="text-decoration: none; color:blue; text-shadow: none;">SPIE</a><br>
+DOI: <a href="#" style="text-decoration: none; color:blue; text-shadow: none;">10.1117/12.2560720</a>
+   </p>
+
+   <h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan"> About the Conference:</h2>
+   <p style="font-size: 1.3vw; padding: 0vw; margin: 0vw;">
+Title: Mobile Image Exploitation and Learning 2020<br>
+Date: Monday - Friday 27 April - 1 May 2020<br>
+Place: Online.
+   </p>
+   <p style="font-size: 1.5vw">----------</p>
+   <p style="font-size: 1.4vw;  line-height: 2.1vw;">
+       Koya University (KOU) is located in the city of Koya (Koy Sanjaq) which is 1.0 hr drive to the East of the Kurdistan Region capital Erbil (Arbil, Hewlér) in Kurdistan Region of F.R. Iraq. It is on the foothills of beautiful high mountain. Its campus has been carefully laid out to embrace the beautiful mountainous nature. . There are 4 Faculties and 2 Schools in KOU; Faculty of Engineering (FENG), Faculty of Science and Health (FSCH), Faculty of Education (FEDU), Faculty of Humanities and Social Silences (FHSS), Shcool of Physical Education (SPHE) and School of Medicine (SMED). Also, there are two research centers; Genome Center and Malai Gawra Center. Moreover, at KOU there is an English Language Center (BELC) at KOU has been opened with the sponsorship of IREX and American embassy in Baghdad as well as with the support of Spring International Language Center of The University of Arkansas. KOU has two Scientific Journals; ARO-The Scientific Journal of Koya University, which is indexed by Clarivate Analytics (ESCI), and Koya University Journal of Humanities and Social Sciences (KUJHSS). KOU is a proactive member of Erasmus/ Marhaba Project and Erasmus+. KOU signed many Memorandum of Understandings (MoU) with many International Universities, e.g., The University of Arkansas (June 2015). The Lulea University in Sweden (April 2014), The University of Nottingham in the UK, The University of Buckingham in the UK (Oct 2008), Belkin University in Turkey (Sep 2009) and The University of Greenwich in the UK.
+   </p>
+</div>
+
+<div class="mnkem" id="s1" style="display: none;">
+    
+    <h1 style="display: block; font-size: 2.3vw;" class="jwan">Koya University Students Marhaba awardees at the University of Minho</h1>
+
+    <p style="font-size: 1.4vw;  line-height: 2.1vw;">After being awarded a one –year Erasmus Marhaba scholarship program,
+    <img src="s/s1.jpg" style="float: right;" >
+     four students from Koya University are now studying at the University of Minho in Portugal. The students point out the significance of Marhaba Project and deem it an ideal opportunity to study in Europe. They also refer to the experience they have gained and say that they have successfully made use of the situation and consider it a golden opportunity to learn. This report reveals their new life and situation in Portugal. </p>
+
+     <h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan">All is going well </h2>
+     <p style="font-size: 1.4vw;  line-height: 2vw; margin: 0vw; padding: 0vw;" >The four students are enjoying their new life there. Talking about their living conditions and their academic life, Dana Ghafar, one of the students says, “Everything is going well with us; the staff of Minho University are very helpful and they offer their full cooperation to foreign students. We have been able to achieve a good academic level among our classmates.” He also states that apart from studying, they are trying to create a positive perception and image about Kurds among their foreign classmates and colleagues. </p>
+
+     <p style="font-size: 1.4vw;  line-height: 2.1vw;">Acclimatization is by no means easy and human beings often find it difficult to get used to a completely new environment within a short period of time. Koya University students studying in Portugal find themselves in a completely new environment; however, they feel quiet comfortable because of the good treatment they receive from the university and the people there. Dana says, “We soon got used to the situation.” One of the amazing experiences the students have witnessed during their stay in Portugal was the help and kind treatment of the Portuguese people. </p>
+     <p style="font-size: 1.4vw;  line-height: 2.1vw;">Gaining experience can be best achieved through interaction with people and through real life. In addition to academic benefits, these students have also enriched their life experience. In this respect, Dana says, "In addition to academic advantages, we have gained a lot of new experience in terms of learning about the culture, lifestyle, advancements and civilization of Portugal and other European countries; we have already visited several well-known countries like Germany, Spain, Netherlands because Portugal itself is a European country." Kurdistan Region has been undergoing unstable political and economic situations so that the government is currently unable to support the students who study abroad; therefore, Dana says, "With Kurdistan Region facing such hard crises, gaining all this experience would have been impossible if it was not for Marhaba Project."</p>
+
+     <h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan">ِA dream come true project </h2>
+     <p style="font-size: 1.4vw;  line-height: 2.1vw;">It has been two years since the government has suspended its financial support to students who study abroad because of the current financial crisis facing the Region. The Erasmus Mundus Project is a golden opportunity for Koya University staff members to secure seats in one of the European countries. Regarding this, Dana says “In such volatile political and economic situation that faces Kurdistan Region, we can call this project a dream come true project.” Having their dream come true, Dana expresses his and his friends' gratitude to Dr. Dilan M. Rostam, Vice President of Koya University, who helped them get this chance. </p>
+
+     <p style="font-size: 1.4vw;  line-height: 2.1vw;">This year again Marhaba project has opened its door for new applicants. On Tuesday 24th November 2015 at 11 o'clock pm at the LT1000 hall of Koya University Presidency, a seminar was held for all the students and teachers of Koya University by Dr. Dilan M. Rostam, the University's Vice President for Scientific and Postgraduate Affairs where he explained Marhaba project and the practical steps for application. For more information click here. </p>
+     <p style="font-size: 1.4vw;  line-height: 2.1vw;">Concerning this year's Marhaba Project, Dana, having gained experience in the project, advises his friends saying, ''For this year I advise my friends to be careful about university options because this has a lot of influence on their chance of success. I also advise them to choose those universities where study is in English language.'' 
+Dana and his friends do not deny the role of those who helped them join this project. Concerning this, Dana says, '' We express our thanks and gratitude to Dr. Wali M. Hamad the President of Koya University, Dr. Mohammed H. Zangana, the Dean of the Engineering Faculty, and our department instructors Dr. Fuad M. Khoshnaw and Dr. Basim M. Fadhil the Head of the Manufacturing Engineering Department. They have all helped us join this project." </p>
+<h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan">What is Marhaba Project? </h2>
+
+
+<p style="font-size: 1.4vw;  line-height: 2.1vw;">Erasmus Mundus, known as Marhaba is an academic project sponsored by the European Union. The project includes18 universities around the world and it aims at culture exchange, and higher education development and learning among the partner universities. </p>
+
+<a href="#" style="text-decoration: none; color:blue; text-shadow: none;">For more information about the aims and objectives of this project click here. </a>
+<h2 style="font-size: 1.7vw; margin-top: 5vw; margin-bottom: 0vw; " class="jwan">Practical steps for application: </h2>
+<p style="font-size: 1.4vw;  line-height: 2vw; margin: 0vw;" >First read the instructions and conditions for application available in both Kurdish and English on Marhaba Website opened by the office of the Vice President for Scientific and Postgraduate Affairs. Then carefully fill in the application form and work on getting University approval along with some other procedures in cooperation with the Office of the Vice President for Scientific and Postgraduate Affairs. To visit the website click here</p>
+<a href="#" style="text-decoration: none; color:blue; text-shadow: none;">BY: Koya University Press Room</a>
+<p style="font-size: 1.5vw;  line-height: 2vw; margin: 0vw;" >Translated by : Koya University Translation Unit (TRU)</p>
+
+
+</div>
+<script type="text/javascript">
+    var modal = document.getElementById('myModal');
+
+    var captionText = document.getElementById("caption");
+
+    function hatm( source , capt){
+
+        var johncena = document.getElementById(source).innerHTML;
+
+        modal.style.display = "block";
+        captionText.innerHTML = capt;
+        var johncena = document.getElementById("valhalla").innerHTML = johncena;
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() { 
+  modal.style.display = "none";
+}       
+
+</script>
+<script>
+var input = document.getElementById("garann");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("zaxm").click();
+  }
+});
+</script>
+    <script src="swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop:true,  
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+      },    
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 550,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+    </body>
+
+
+</html>

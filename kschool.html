@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title>زانکۆی کۆیە | سکوڵی پزیشکی</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="MakeUp.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@450&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  href="swiper.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fa0196ec72.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="Functions.js"></script>
+        <link rel="shortcut icon" type="image/png" href="home/flogo2.png">
+
+    </head>
+
+    <body style="padding: 0; margin: 0;">
+        <div id="myModal">
+  <span class="close">&times;</span>
+  <div id="caption" style="font-family: 'Volkhov', serif;"></div>
+  <div class="boxing">
+      <div id="valhalla" style="padding: 1vw;">
+        
+      </div>
+  </div>
+
+  
+</div>
+    
+
+
+
+    
+    	<!-- am dive a bo basy srawa , navigation bar + background -->
+    	<div id = "kodo" style="height: 1vw">
+            <nav class="nav0">
+                <ul  class="ul0">
+                    <li class="box">
+                        <input type="text" class="search-text" name="search-text" id="garann" placeholder="Search...">
+                        <a class="search-btn">
+                        <i class="fas fa-search" id="zaxm" onclick="yalla()"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul id="topi">
+                    <li id="pp"><a  class="fellkrdn zman"  onclick="english()">English</a></li>
+                    <li id="ppp"><a   class="fellkrdn zman" onclick="kurdish()"> کوردی </a></li>
+                    <li ><a href="https://www.facebook.com/koyauniversity" target="_blank" class="logo"><i class="fab fa-facebook-square"></i></a></li>
+                    <li ><a href="https://www.snapchat.com/" target="_blank" class="logo"><i  class="fab fa-snapchat-square"></i></a></li>
+                    <li ><a href="https://www.youtube.com/user/zankoykoye" target="_blank" class="logo"><i class="fab fa-youtube"></i></a></li>
+                    <li ><a href="https://www.instagram.com/koyauniversity/" target="_blank" class="logo"><i class="fab fa-instagram"></i></a></li>
+                    <li ><a href="https://twitter.com/koyauniversity" target="_blank" class="logo"><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </nav>
+            <nav class="nav1">
+                <ul id="menu" style="flex-direction: row-reverse;">
+            <li ><a href="kHome.html" id="home">دەستپێک</a></li>
+            <li ><a href="kabout.html" id="about">لەبارەی ئێمە</a></li>
+            <li ><a href="ksakoya.html" id="study">خوێندن لە کۆیە</a></li>
+            <li ><a href="ktypes.html" id="faculty" class="f">بەشەکان</a>
+              <ul class="m1" >
+                <li ><a href="ken.html" id="en">ئەندازیاری</a>
+                  <ul class="m2">
+                    
+                    <li><a href="http://feng.koyauniversity.org/departments/dare" id="arch">ڕەسام</a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dcen" id="civi">مەدەنی</a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dgen" id="geo">جیۆ </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dche" id="chem">کیمیاوی </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dpte" id="pet">نەوت </a></li>
+                    <li><a href="ksoftware.html" id="softwaree">پڕۆگرامسازی </a></li>
+                    <li><a href="http://feng.koyauniversity.org/departments/dmfe" id="manu">مادهوبالا</a></li>
+
+                  </ul>
+
+                </li>
+                <li ><a href="ksc.html" id="scc">زانست و تەندروستی</a>
+
+                  <ul class="m2">
+                    <li><a href="http://fsch.koyauniversity.org/departments/dbio" id="bio">بادۆلۆجی</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dchm" id="chemm">کیمیا </a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dmat" id="math">بیرکاری </a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dphy" id="phy">فیزیا</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dclp" id="cli">نازانم</a></li>
+                    <li><a href="http://fsch.koyauniversity.org/departments/dmem" id="micro">مایکڕۆ</a></li>
+                  </ul>
+
+
+                </li>
+                <li ><a href="khu.html" id="hu">مرۆڤایەتی</a>
+                  <ul class="m2">
+                    <li><a href="http://fhss.koyauniversity.org/departments/dlaw" id="law">قانون</a></li>
+                    <li><a href="http://fhss.koyauniversity.org/departments/dadm" id="econ">ئابوری</a></li>
+                    <li><a href="http://fhss.koyauniversity.org/departments/deng" id="inglizy">ئینگلیزی</a></li>
+                  </ul>
+                </li>
+                <li ><a href="ked.html" id="ed">پەروەردە </a>
+                  <ul class="m2">
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkur" id="kurdii">کوردی</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/darb" id="arabii">عربي</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dhis" id="histo">مێژوو</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dgeo" id="geooo">جوگرافیا </a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/drle" id="din">شەریعە</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dkin" id="baxcha">باخچەی ساوایان</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/deps" id="psyy"> دەرون ناسی</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dphe" id="fizia">فیزیا</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/dbed" id="disanenglizi"> ئینگلیزی</a></li>
+                    <li><a href="http://fedu.koyauniversity.org/departments/denl" id="basicc">سەرەتایی</a></li>
+                  </ul>
+                </li>
+                <li ><a href="kschool.html" id="dxtor">دکتۆر </a></li>
+              </ul>
+                    <li class="nav"><a class="navi" id="research" href="kr.html">لێکۆڵینەوەکان</a></li>
+                    <li class="nav"><a class="navi" id="library" href="klam.html">کتێبخانە و شوێنەوار</a></li>
+                    <li class="nav"><a class="navi" id="life" href="klife.html">ژیان لە زانکۆ</a></li>
+                    <li class="nav"><a class="navi" id="events" href="ke.html">چالاکی</a></li>
+                </ul>
+            </nav>
+
+            
+
+       </div>
+
+
+       
+
+    
+
+
+
+
+    <div style=" background: white; margin-top: 5vw;">
+        <div style="width: 25vw; height: 100vw; float: left;" class="sidebar1" >
+            <ul class="sideul">
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side1.jpg) no-repeat center top; background-size: cover;">
+                    </div>
+                    <h3 class="jwan" id="szanko1" style="color: black; text-shadow: none;">
+                        سەرۆکی زانکۆ
+                    </h3>
+                    <p id="szanko2" style="direction: rtl;">
+                        
+کۆرۆنا بە زۆربەی وڵاتانی جیهاندا بڵاوبووەتەوە، لە بەشێک لە وڵاتان ئامارەکانی تووشبوون و گیانلەدەستدان لە هەڵکشاندان، هەموو تەمەن و چین و توێژێک بە هەژار و دەوڵەمەند هەوڵدەدەن خۆیان لە کۆرۆنا بپارێزن،
+                    </p>
+
+                    <a href="ksarok.html" class="read" id="szanko3" >بینینی بابەت</a>
+                </li>
+
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side2.png) no-repeat center center ; background-size: contain; border-radius: 0px; margin-left: 0px; width: 100%; box-shadow: 0px 0px 0px 0px;" >
+                    </div>
+                    <p id="aro1">
+                        ئەو رێکارەی بۆ پاراستنی ڤلادیمیر پووتین، سەرۆکی رووسیا دەگیرێتە بەر زۆر جیاوازە لە هی سەرۆکانی دیکەش، بۆ نموونە دۆناڵد ترەمپ، سەرۆکی ئەمریکا. ئەو کەسانەی کە پێویستە پووتین ببینن دەبێت بە دوو توونێلدا تێپەڕن،
+                    </p>
+
+            
+                </li>
+                <li class="sideli">
+                    
+                    <p id="e1">نوێترین زانیاری ئێمە</p>
+                    <input type="email" name="email" id="abcfr" placeholder="داخل کردنی ئیمەیڵ" required style="justify-content: center; align-items: center; text-align: center; padding: 0vw; margin: 0vw; border: none; background:transparent; font-size: 1.15vw; border-bottom: 1px solid grey; outline: none; margin-left: 0.5vw;">
+                    <a id="e3" style="margin: 1vw 2.5vw;" id="taybat" class="subscribe" class="read" onmouseover="kyakam()"  onmouseout="kyakams()" onclick="ksafe()">ژووری زانیاری</a>
+                </li>
+
+                 </li>
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side4.png) no-repeat center top; background-size: cover;">
+                    </div>
+
+                    <a href="http://ol.koyauniversity.org/" style="margin: 1vw 0vw;" id="taybat" class="read oo" >خوێندنی ئۆنڵاین</a>
+                </li>
+                <li class="sideli">
+                    <div class="sidediv" style="background: url(side/side5.png) no-repeat center center ; background-size: contain; border-radius: 0px; margin-left: 0px; width: 100%; box-shadow: 0px 0px 0px 0px;" >
+                    </div>
+                    <a href="http://pressroom.koyauniversity.org/" style="margin: 1vw 2.5vw;" id="taybat" class="read nn" >نوچە نامە</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div style="width:  72.5vw; height: auto; float: left; display: block; background: white;" class="tawari-raisy">
+            <a  href="kHome.html" class="dagra" style="position: absolute; top: 10vw; left: 26vw;">دەستپێک</a>
+            <h1 style="display: block; font-size: 2.5vw; margin-left: 25vw;" class="jwan">School of Medicine</h1>
+            <p style="font-size: 1.4vw;  line-height: 2vw; margin: 0vw;" >Koya University is located in the city of Koya (Koysinjaq), which is 1.0 hr drive to the East of the Kurdistan Region capital Erbil (Erbil, Hewlér, EBL) in Kurdistan Region of F. R. of Iraq. It is on the foothills of beautiful high mountain. Its campus has been carefully laid out to embrace the beautiful mountainous nature.</p>
+            <div style="margin: 1vw;">
+                <img src="twb.jpg" style="height: 30vw; width: 30vw; margin-left: 20vw;">
+                <p style="font-size: 1.4vw;  line-height: 2vw; margin: 0vw;">The Koya University was established in 2003 and has developed noticeably. In 2010, Koya University was restructured from colleges to faculty systems to enhance the interactions between similar academic fields. Today the University has four faculties and two schools,  
+                -Engineering, Sciences and Health, Humanities and Social Sciences and Education, school of medicine and sport.  The university’s ambition to establish medical education roots in its historical connection with unique excellence education field as well as a genuine needs of the region. This falls nicely with complex health services in Koya city ( Shahid Dr. Khalid teaching hospital, Radiology centre, Rheumatology and rehabilitation centre, Forensic centre and Primary health centres).</p>
+
+                <img src="twb2.jpg" style="height: 25vw; width: 40vw; margin-left: 14vw;">
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <footer style="margin-top: 30vw; margin-bottom: 0vw;">
+        
+        <div class="olympus">
+            
+        </div>
+        
+        <div class="relax">
+            <ul class="elo2">
+                <li class="elo elohead ff">
+تاگەکان</li>
+                <hr style="width: 16.8vw; padding: 0vw; margin: 0.5vw 0vw; color: white;">
+                <li class="elo read ff">​زانکۆی کۆیە</li>
+                <li class="elo read ff">پاڕکی زانکۆ</li>
+                <li class="elo read ff">دانیاڵ ئینگلیزی</li>
+                <li class="elo read ff">کۆیە کۆی٤٥</li>
+                <li class="elo read ff">هەرێمی کوردستان ئیراق</li>
+                <li class="elo read ff">ژمارە تەلەفۆن: +٩٦٤ ٧٤٨ ٠٢٦ ٢٥٨</li>
+                <li class="elo read ff">ئیمەیڵ بە کوردی نانوسرێ</li>
+                <li class="elo read ff">لەناو وێبسایتەکەمانی</li>
+            </ul>
+        </div>
+
+       
+        <div class="relax">
+            <ul class="elo2 opqq">
+                <li class="elo elohead read opq" >سەنتەری بەهار</li>
+                <hr  style="width: auto; padding: 0vw; margin: 0.5vw 0vw; color: white;">
+                <p class="elo read opq" id="taqana">
+                    دوای ئەوەی وەزارەتی خوێندنی باڵای هەرێمی کوردستان بڕیاریدا کۆتایی بە پرۆسەی خوێندن بهێنێت و رایگەیاند؛ ئەو قوتابیانەی لە خولی یەکەمی ئەمساڵ دەرنەچوون دەتوانن وەک قەرەبوو لێکۆڵینەوە یان راپۆرتێک ئامادەبکەن تاوەکو بە دەرچوو هەژمار بکرێن، بازاڕی کڕینی نایاسایی راپۆرتی زانستی لە هەرێمی کوردستان زیادیکردووە.
+                </p>
+            </ul>
+        </div>
+
+        <div class="relax">
+            <div class="qaty2">
+                
+            </div>
+            <p class="amoza read shex1" style="left: 82.5vw">
+                بخوێنە بە ورەی بەرز
+            </p>
+        </div>
+
+        <div class="xom">
+            <p>
+                <hr style="padding: 0vw; margin: 0vw; width: 80vw; margin-left: 10vw;">
+                <P  style="margin: 0vw; padding: 0vw; margin-left: 42vw; margin-top:0.4vw;" id="tawawbw"  class="read">© Copyright 2020 <a href="#" id="kodoyousif" class="read mnb">Kodo Yousif :)  </a></P>
+            </p>
+        </div>
+    </footer>
+    
+
+<script type="text/javascript">
+    var modal = document.getElementById('myModal');
+
+    var captionText = document.getElementById("caption");
+
+    function hatm( source , capt){
+
+        var johncena = document.getElementById(source).innerHTML;
+
+        modal.style.display = "block";
+        captionText.innerHTML = capt;
+        var johncena = document.getElementById("valhalla").innerHTML = johncena;
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() { 
+  modal.style.display = "none";
+}       
+
+</script>
+<script>
+var input = document.getElementById("garann");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("zaxm").click();
+  }
+});
+</script>  
+    <script src="swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop:true,  
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+      },    
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 550,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+    </body>
+
+
+</html>
